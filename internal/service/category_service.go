@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 
-	"github.com/devfullcycle/imersao17/goapi/internal/database"
-	"github.com/devfullcycle/imersao17/goapi/internal/entity"
+	"github.com/leonardohklaus/goapi/internal/database"
+	"github.com/leonardohklaus/goapi/internal/entity"
 )
 
 type CategoryService struct {

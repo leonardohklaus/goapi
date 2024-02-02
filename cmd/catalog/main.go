@@ -7,11 +7,11 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/devfullcycle/imersao17/goapi/internal/database"
-	"github.com/devfullcycle/imersao17/goapi/internal/service"
-	"github.com/devfullcycle/imersao17/goapi/internal/webserver"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/leonardohklaus/goapi/internal/database"
+	"github.com/leonardohklaus/goapi/internal/service"
+	"github.com/leonardohklaus/goapi/internal/webserver"
 )
 
 func main() {

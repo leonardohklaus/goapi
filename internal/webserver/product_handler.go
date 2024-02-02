@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/devfullcycle/imersao17/goapi/internal/entity"
-	"github.com/devfullcycle/imersao17/goapi/internal/service"
 	"github.com/go-chi/chi/v5"
+	"github.com/leonardohklaus/goapi/internal/entity"
+	"github.com/leonardohklaus/goapi/internal/service"
 )
 
 type WebProductHandler struct {

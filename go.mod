@@ -1,5 +1,4 @@
-module github.com/devfullcycle/imersao17/goapi
-
+module github.com/leonardohklaus/goapi
 go 1.21.6
 
 require (
