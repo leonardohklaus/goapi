@@ -3,7 +3,6 @@ package service
 import (
 	"github.com/leonardohklaus/goapi/internal/database"
 	"github.com/leonardohklaus/goapi/internal/entity"
-	"github.com/leonardohklaus/goapi/internal/rabbitmq"
 )
 
 type ProductService struct {
@@ -44,11 +43,6 @@ func (ps *ProductService) CreateProduct(name, description, category_id, image_ur
 	if err != nil {
 		return nil, err
 	}
-
-	err = rabbitmq.PublishRabbitMQMessage(product)
-		if err != nil {
-			panic(err.Error())
-		}
 
 	return product, nil
 }
